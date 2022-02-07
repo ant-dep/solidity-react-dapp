@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+Full stack dApp on the Ethereum blockchain with React, Solidity, Hardhat, and Ethers.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Creatation of a couple of different smart contracts in Solidity, compile them, and deploy them to a local blockchain node.
 
-Try running some of the following tasks:
+Deployed the smart contracts to a real live test network (ropsten)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+React front end to allow users to read data from the blockchain as well as create transactions with MetaMask using test Ether that we create using accounts created by our local test environment.
